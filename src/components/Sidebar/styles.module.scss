@@ -1,0 +1,19 @@
+@import "../../styles/root";
+
+.container {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  background: white;
+  transition: ease-in-out 1s;
+}
+
+.container-open {
+  width: 219px;
+  transition: ease-in-out 1s;
+}
+
+.menu {
+  background: chartreuse;
+}
